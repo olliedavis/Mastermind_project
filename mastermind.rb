@@ -9,6 +9,7 @@ class Mastermind
     @total_rounds = 0
   end
 
+  
   def computer_random_choice
     4.times do
       @computer_choices.push($COLORS[rand(0...5)])
