@@ -14,7 +14,6 @@ class Mastermind
     4.times do
       @computer_choices.push($COLORS[rand(0...5)])
     end
-    puts @computer_choices
   end
 
   def user_guesses
